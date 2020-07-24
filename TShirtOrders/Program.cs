@@ -5,6 +5,8 @@ using System.Collections.Generic;
 //Programmer: Rob Garner (rgarner7@cnm.edu)
 //Date: 10 Mar 2020
 //Purpose: Process a series of tshirt orders. 
+
+    //TODO:  Good job.  score 95/100
 namespace TShirtOrders
 {
     class Program
@@ -53,7 +55,7 @@ namespace TShirtOrders
             int index = GetIntFromUser("Enter index of shirt order to remove: ");
             if (GetBoolFromUser("Are you sure you want to delete this order"))
             {
-
+ //TODO:  Need to subtract 1 for zero-indexing  -5   
                 //In Changed the Remove to ReoveAt to specify what index selection you want to remove.
                 orders.RemoveAt(index);
             }
